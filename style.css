@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3D087B;
+}
+.set-time{
+    width: 566px;
+    height: 363px;
+    background-color: white;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.wakeuptimecontainer,.lunchtimecontainer,.naptimecontainer,.nighttimecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text{
+    color: #3D087B;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+}
+select{
+    height: 45px;
+    width: 281px;
+    padding: 15px;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    color: #3D087BDE;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    appearance:none;
+}
+.drop{
+    position: absolute;
+    left: 630px;
+}
+.line{
+    margin-left: 35px;
+}
+.container2{
+    width: 566px;
+    height: 77px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,0.23);
+    padding: 21px;
+    font-size: 27px;
+    font-weight: 900;
+    margin-top: 15px;
+    font-family: 'Archivo Black', sans-serif;
+}
+button{
+    width: 299px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: linear-gradient(113deg,#6E54EC 0%,#CB52F8 40%,#FC5EFF 81%,#F1A7C5 100%);
+    color: white;
+    font-size: 24px;
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
+}
+.container3{
+    width: 253px;
+    height: 117px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,0.23);
+    color: #F25CFE;
+    padding: 10px;
+    line-height: 25px;
+    margin-top: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+.buttoncontainer{
+    width: 566px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+.container-b{
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+}
+.box1{
+    width: 536px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box2{
+    width: 416px;
+    height: 130px;
+    background-color: rgba(255,255,255,0.71);
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    z-index: -1;
+}
+.box3{
+    width: 379px;
+    height: 130px;
+    background-color: rgba(255,255,255,0.22);
+    border-radius: 10px;
+    position: absolute;
+    top: 27px;
+    left: 80px;  
+    z-index: -2;
+}
+#time{
+    font-size: 20px;
+}
+#hourss{
+    position: absolute;
+    top: 25px;
+    left: 120px;
+    font-size: 36px;
+    color: #8A11BF;
+}
+#minutess{
+    position: absolute;
+    top: 25px;
+    left: 228px;
+    font-size: 36px;
+    color: #8A11BF;
+}
+#secondss{
+    position: absolute;
+    top: 25px;
+    left: 340px;
+    font-size: 36px;
+    color: #8A11BF;
+}
+#colon1{
+    font-size: 50px;
+    position: absolute;
+    top: 25px;
+    left: 188px;
+    color: #8A11BF;
+}
+#colon2{
+    font-size: 50px;
+    position: absolute;
+    top: 25px;
+    left: 295px;
+    color: #8A11BF;
+}
+#hrs{
+    position: absolute;
+    top: 75px;
+    left: 120px;
+    color: #8A11BF;
+}
+#mins{
+    position: absolute;
+    top: 75px;
+    left: 233px;
+    color: #8A11BF;
+}
+#secs{
+    position: absolute;
+    top: 75px;
+    left: 341px;
+    color: #8A11BF;
+}
+#ampm{
+    font-size: 36px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    position: absolute;
+    left: 443px;
+}
+.container4{
+    margin-top: 40px;
+    width: 536px;
+    height: 118px;
+    background-color: white;
+    color: #8E53F0;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Archivo Black', sans-serif;
+    padding-left: 20px;
+    padding-top: 45px;
+}
+
+#curtainimage{
+    height: 341px;
+    width: 536px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-image: url(./images/morning.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
